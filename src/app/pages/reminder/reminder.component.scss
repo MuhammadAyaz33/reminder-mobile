@@ -1,0 +1,27 @@
+.reminder{
+    margin:10px 15px;
+    .top-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin: 0px 5px;
+            widows: 20px;
+            height: 20px;
+        }
+        h3{
+            margin: 5px 0px;
+        }
+    }
+    .flex-1{
+        display: grid;
+        grid-template-columns: 65% 35%;
+        justify-content: center;
+        align-items: center;
+        .custom-input{
+            border: none !important;
+            border-radius: 0;
+            border-bottom: 1px solid #000 !important;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.screen2{
+    margin-top: 20px;
+    .top-content{
+        display: flex;
+        justify-content: space-between;
+        .user-info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 30px;
+                height: 35px;
+            }
+            p{
+                margin: 0px 0px 0px 5px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+        .profile-switch{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 20px;
+                height: 22px;
+            }
+            p{
+                margin: 0px 5px 0px 0px;
+                font-size: 12px;
+                font-weight: bold;
+                color: #e98332;
+            }
+        }
+    }
+    .content{
+        .custom-dropdown{
+            width: 43%;
+            margin-left: -15px;
+            .custom-input1{
+                border: none !important;
+            }
+        }  
+        .custom-grid{
+            display: flex;
+            justify-content: space-between;
+            h3{
+                color: #e98332;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            h2{
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 0px;
+            }
+            p{
+                margin: 0;
+                font-size: 12px;
+            }
+            .add-icon{
+                width: 10px;
+                height: 10px;
+            }
+        } 
+        
+    }
+}

@@ -1,0 +1,68 @@
+.screen1{
+    margin-top: 20px;
+    .top-content{
+        display: flex;
+        justify-content: space-between;
+        .user-info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 30px;
+                height: 35px;
+            }
+            p{
+                margin: 0px 0px 0px 5px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+        .profile-switch{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 20px;
+                height: 22px;
+            }
+            p{
+                margin: 0px 5px 0px 0px;
+                font-size: 12px;
+                font-weight: bold;
+                color: #e98332;
+            }
+        }
+    }
+    .content{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 50px;
+        text-align: center;
+        .alarm{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            .alarm-icon{
+                width: 150px;
+                height: 100px;
+            }
+        }
+        h3{
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        p{
+            font-size: 12px;
+        }
+        .arrow-icon{
+            width: 20px;
+            height: 15px;
+        }
+        .reminder-btn{
+            margin-top: 20px;
+        }
+    }
+}

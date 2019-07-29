@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.slim.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -129,12 +134,4 @@
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
             "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    }
-  },
-  "defaultProject": "Reminder"
-}
+              "**/node_modules/

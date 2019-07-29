@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+.heading1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.reminder-btn{
+    .btn{
+        width: 150px !important;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 10px;
+    }
+}
+.custom-select:focus,.form-control:focus{
+    border-color: rgb(255, 252, 252) !important;
+    box-shadow: 0 1px 1px rgb(255, 251, 251) inset, 0 0 8px rgb(255, 255, 255) !important;
+    outline: 0 none !important;
+}
+.form-control{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+}
+.input-group {
+    img {
+        width: 15px;
+        height: 8px;
+        margin-top: 15px;
+    }
+}
+
+.custom-border{
+    border-bottom: 1px solid #f1eeee;
+    padding: 15px 0px;
+}
