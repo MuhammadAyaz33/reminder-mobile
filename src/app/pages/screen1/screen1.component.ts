@@ -9,14 +9,17 @@ import { ConfirmModalComponent } from '../../components/confirm-modal/confirm-mo
 })
 export class Screen1Component implements OnInit {
   bsModalRef: BsModalRef;
-  bsModalService: BsModalService
   config = {
     class: 'custom-modal modal-dialog-centered modal-md successModal'
   };
-  constructor() { }
+  constructor(private bsModalService: BsModalService) {}
 
   ngOnInit() {
   }
+  // public openModalWithComponent() {
+  //   /* this is how we open a Modal Component from another component */
+  //   this.bsModalRef = this.bsModalService.show(ConfirmModalComponent);
+  // }
   openSetReminderModal() {
     const initialState = { type: 'setReminder'};
     this.bsModalRef = this.bsModalService.show(

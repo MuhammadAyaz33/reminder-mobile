@@ -1,21 +1,50 @@
 <div class="modal-inner makeCenter" *ngIf="type=='setReminder'">
   <div class="modal-header">
-      <!-- <h4 class="modal-title pull-left">sdfsdf</h4> -->
+    <div class="header-top">
+      <img src="../../../assets/icons/Reminder-Screen-2.png" alt="">
+      <h2 class="heading2 mt-1">Setting Reminder</h2>
+    </div>
     <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
   <div class="modal-body sucess">
-    <h3>Your Data Has Been Successfully Saved</h3>
-    <p>Continue to the Next Step & Complete
-        your Profile Application</p>
+    <div>
+      <h2>REMINDER TITLE</h2>
+      <p> Blood thinners</p>
+    </div>
+    <div>
+      <h2>MEDICINE NAME</h2>
+      <p> Crosin 500mg</p>
+    </div>
+    <div>
+      <h2>DAYS TO HAVE</h2>
+      <p> Monday, Wednesday, Friday</p>
+    </div>
+    <div>
+      <h2>TIME OF MEDICIN</h2>
+      <p>9:30am, 10:30am</p>
+    </div>
+    <div>
+      <h2>MEDICINE DURATION</h2>
+      <p>Lifetime</p>
+    </div>
+    <div>
+      <h2>STARTS FROM</h2>
+      <p>July 8th, 2019</p>
+    </div>
+    <div>
+      <h2>WILL HAVE FIRST DOSE IN</h2>
+      <p>Morining</p>
+    </div>
+    <div>
+      <h2>ANY SPECIFIC INSTRUCTIONS?</h2>
+      <p>None</p>
+    </div>
   </div>
-  <div class="modal-body sucess">
-    <h3>Your Data is uploaded Successfully</h3>
-  </div>
-
   <div class="footer-content">
-    <a (click)="bsModalRef.hide()">Skip for now</a>
-    <a class="custom-btn green-bg white-txt" (click)="bsModalRef.hide()" >Got it</a>
+    <!-- important -->
+    <!-- i have just put dummy icon here you can add real icom here   -->
+    <a>Confirm <img src="../../../assets/icons/Arrow.png" alt=""> </a>
   </div>
 </div>

@@ -1,16 +1,30 @@
-
-input[type="file"] {
-    display: none;
+.modal-inner{
+  .header-top{
+    display: flex;
+    img{
+      width: 22px;
+      height: 20px;
+      margin-right: 5px;
+    }
   }
-  
-  .custom-file-upload {
-    border: 1px solid #ccc;
-    display: inline-block;
-    padding: 15px 20px;
-    cursor: pointer;
+  .modal-body{
+    h2{
+      font-size: 12px;
+      font-weight: bold;
+      color:#e98332;
+      margin-bottom: 0;
+    }
+    p{
+      font-size: 14px;
+    }
   }
-  
-  .custom-input {
-    width: 90%;
-    margin: 20px auto;
+  .footer-content{
+    display: flex;
+    justify-content: flex-end;
+    color: #007bff;
+    padding: 5px;
+    img{
+      width: 20px;
+    }
   }
+}
