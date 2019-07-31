@@ -18,7 +18,7 @@ import { ConfirmModalComponent } from './components/confirm-modal/confirm-modal.
     Screen1Component,
     Screen2Component,
     Screen3Component,
-    ConfirmModalComponent
+    ConfirmModalComponent,
   ],
   imports: [
     BrowserModule,

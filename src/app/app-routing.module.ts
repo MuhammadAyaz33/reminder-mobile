@@ -9,7 +9,7 @@ import { Screen3Component } from './pages/screen3/screen3.component';
 const routes: Routes = [
   {
     path: '',
-    component: Screen1Component,
+    component: Screen3Component,
     data: { title: 'reminder' }
   },
   
